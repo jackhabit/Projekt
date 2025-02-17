@@ -156,6 +156,9 @@ padding: 60px;
     .burger {
       display: block;
     }
+    .footer {
+      font-size: smaller;    
+      }
     
 }
 @media (max-width: 768px) {
@@ -180,6 +183,9 @@ padding: 60px;
   .about-h2 {
       font-size: 1.5em;
   }
+  .footer {
+    font-size: smaller;    
+    }
 }
 @media (max-width: 480px) {
   .about-body {
@@ -195,4 +201,7 @@ padding: 60px;
   .about-h2 {
       font-size: 1.2em;
   }
+  .footer {
+    font-size: smaller;    
+    }
 }
