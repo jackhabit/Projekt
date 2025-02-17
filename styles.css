@@ -31,6 +31,7 @@ li a:hover {
 }
 .body {
 background-color: #ffd299;
+margin: 0;
 }
 .burger {
   display: none;
