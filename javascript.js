@@ -16,7 +16,7 @@ function toggleMenu() {
 
 function randomLink() {
   const links = [
-    "Emuwar.html",
+    "emuwar.html",
     "dancingplague.html",
     "strawriot.html",
     "deadpope.html",
