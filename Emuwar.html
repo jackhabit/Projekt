@@ -6,39 +6,41 @@
     <title>The Emu War</title>
     <link rel="stylesheet" href="linkstyles.css" />
   </head>
-  <body class="bodyemu">
-    <div class="container">
-      <div class="banner"><img src="Img/emusoldier.jpg" alt="" /></div>
-      <div class="content">
-        <h2>The Emu War</h2>
-        <p>
-          In 1932, during the Great Depression, farmers were growing more wheat
-          to survive. This attracted more than 20,000 migrating emu birds to
-          attack the farmlands for sustenance in the erratic Australian climate.
-          You may be wondering how this led to a war. You see, the flock became
-          so big that farmers had to ask the Ministry of Defence for help.
-          Eventually, a small group of armed soldiers were sent to wipe out the
-          birds with weapons. During this “mission,” hundreds of emu birds were
-          killed at first, but their growing number, fast speed, and
-          unpredictable movement made them difficult targets. That’s how
-          Australia declared war on Emus and lost, making it one of the most
-          funny historical events.
-        </p>
-        <div class="button-container">
-          <button onclick="goBack()">Home</button>
-          <button onclick="goNext()">Next</button>
+  <body>
+    <main class="bodyemu">
+      <div class="container">
+        <div class="banner"><img src="Img/emusoldier.jpg" alt="" /></div>
+        <div class="content">
+          <h2>The Emu War</h2>
+          <p>
+            In 1932, during the Great Depression, farmers were growing more
+            wheat to survive. This attracted more than 20,000 migrating emu
+            birds to attack the farmlands for sustenance in the erratic
+            Australian climate. You may be wondering how this led to a war. You
+            see, the flock became so big that farmers had to ask the Ministry of
+            Defence for help. Eventually, a small group of armed soldiers were
+            sent to wipe out the birds with weapons. During this “mission,”
+            hundreds of emu birds were killed at first, but their growing
+            number, fast speed, and unpredictable movement made them difficult
+            targets. That’s how Australia declared war on Emus and lost, making
+            it one of the most funny historical events.
+          </p>
+          <div class="button-container">
+            <button onclick="goBack()">Home</button>
+            <button onclick="goNext()">Next</button>
+          </div>
+          <script>
+            function goBack() {
+              window.location.href = "main.html";
+            }
+            function goNext() {
+              window.location.href = "dancingplague.html";
+            }
+          </script>
         </div>
-        <script>
-          function goBack() {
-            window.location.href = "main.html";
-          }
-          function goNext() {
-            window.location.href = "dancingplague.html";
-          }
-        </script>
+        <div class="banner"><img src="Img/emusoldier.jpg" alt="" /></div>
       </div>
-      <div class="banner"><img src="Img/emusoldier.jpg" alt="" /></div>
-    </div>
+    </main>
     <footer class="footer">
       <p>Copyright © 2025 The Bizzare. All rights reserved.</p>
     </footer>
